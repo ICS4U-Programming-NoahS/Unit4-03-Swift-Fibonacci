@@ -1,0 +1,9 @@
+The fibonacci of 0 is 0.
+'-5' is not a valid whole number.
+The fibonacci of 1 is 1.
+'Hello' is not a valid whole number.
+The fibonacci of 6 is 8.
+'' is not a valid whole number.
+The fibonacci of 12 is 144.
+'3.3' is not a valid whole number.
+'' is not a valid whole number.
