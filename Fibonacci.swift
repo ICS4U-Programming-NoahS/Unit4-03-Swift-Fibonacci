@@ -16,13 +16,13 @@
 import Foundation
 
 // Function to calculate the fibonacci
-func fibonacci(_ n: Int) -> Int {
+func fibonacci(_ number: Int) -> Int {
 
     // Base case
-    if n == 0 || n == 1 {
+    if number == 0 || number == 1 {
 
         // because fib(0) = 0, and fib(1) = 1
-        return n
+        return number
 
     // Recursive case
     } else {
@@ -30,7 +30,7 @@ func fibonacci(_ n: Int) -> Int {
         // Call the fibonacci method recursively
         // add the fibonacci of the two previous numbers
         // Return the fibonacci of the number
-        return fibonacci(n - 1) + fibonacci(n - 2)
+        return fibonacci(number - 1) + fibonacci(number - 2)
     }
 }
 
